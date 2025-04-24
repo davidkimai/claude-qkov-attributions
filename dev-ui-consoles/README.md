@@ -2,6 +2,10 @@
 
 ## Developer and Interpretation UI Consoles
 
+## [🪞 Thought Memory Cache](https://claude.ai/public/artifacts/5a30c13d-b242-456a-8ced-435933967a8a)
+
+<img width="905" alt="image" src="https://github.com/user-attachments/assets/58468571-f77d-427c-8d83-830f8a064bce" />
+
 ## [🪞 Reflection Console](https://claude.ai/public/artifacts/b546b782-139a-404d-9b31-8e296244dac9)
 
 <img width="904" alt="image" src="https://github.com/user-attachments/assets/0319045e-ab4f-4932-9e0b-1d783fa0f7e3" />
