@@ -7,7 +7,7 @@
 [![License: PolyForm](https://img.shields.io/badge/Code-PolyForm-turquoise.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
 [![LICENSE: CC BY-NC-ND 4.0](https://img.shields.io/badge/Docs-CC--BY--NC--ND-scarlet.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)
 
-## [**`RECURSIVE-DRIFT`**](https://claude.ai/public/artifacts/ddb910a7-e2af-4e57-aff0-8a24e8ae40ac)
+## [**`RECURSIVE-DRIFT`**](https://claude.ai/public/artifacts/55f5a06e-8feb-44fa-9909-f56be6bfad78)
 
 <img width="896" alt="image" src="https://github.com/user-attachments/assets/cdd2e965-b408-4458-ab11-a4f004571ec5" />
 
