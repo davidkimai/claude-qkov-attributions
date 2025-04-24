@@ -370,4 +370,8 @@
     <text x="395" y="20" font-family="monospace" font-size="12" fill="#333">= echo node</text>
     
     <text x="500" y="20" font-family="monospace" font-size="18" fill="#000">∅</text>
-    <text x="525" y="20" font-family="monospace" font-size="12" fill
+    <text x="525" y="20" font-family="monospace" font-size="12" fill="#333">= hard-stop collapse point</text>
+    
+    <text x="720" y="20" font-family="monospace" font-size="12" fill="#555" text-anchor="end">.p/residue.overlay.graph{qkov=true, shell="value_collapse"}</text>
+  </g>
+</svg>
