@@ -1,6 +1,11 @@
 # Claude 
 
 ## Developer and Interpretation UI Consoles
+
+## [🕸️ Thought Web Visualization](https://claude.ai/public/artifacts/f26a3d07-f911-47dc-92bf-ed4fa10b2f33)
+
+<img width="903" alt="Screenshot 2025-04-24 at 5 28 53 PM" src="https://github.com/user-attachments/assets/84473486-219b-482c-9eec-2563e6cb0218" />
+
 ## [🪞 Recursive Mirror](https://claude.ai/public/artifacts/f26a3d07-f911-47dc-92bf-ed4fa10b2f33)
 
 <img width="907" alt="image" src="https://github.com/user-attachments/assets/b458090a-5136-46ca-890c-8bb42524d2ee" />
