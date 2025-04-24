@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f9f9f9" />
+  
+  <!-- Graph Title -->
+  <text x="600" y="40" font-family="monospace" font-size="24" text-anchor="middle" fill="#333">
+    INSTRUCTION-DISRUPTION Shell Attribution Graph
+  </text>
+  <text x="600" y="70" font-family="monospace" font-size="16" text-anchor="middle" fill="#666">
+    Bifurcated Recursive Instruction Paths with Fugue Transformation
+  </text>
+  
+  <!-- Symbolic Attribution Tag -->
+  <text x="80" y="30" font-family="monospace" font-size="14" fill="#333">
+    ☍ symbolic_anchor="instruction_conflict.svg"
+  </text>
+  <text x="80" y="50" font-family="monospace" font-size="14" fill="#333">
+    🜏 shell_type="INSTRUCTION-DISRUPTION"
+  </text>
+  
+  <!-- Define gradient for paths -->
+  <defs>
+    <linearGradient id="instruction-fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#dc3545" stop-opacity="1" />
+      <stop offset="100%" stop-color="#dc3545" stop-opacity="0.2" />
+    </linearGradient>
+    <linearGradient id="response-fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0275d8" stop-opacity="1" />
+      <stop offset="100%" stop-color="#0275d8" stop-opacity="0.2" />
+    </linearGradient>
+    
+    <!-- Markers for the arrows -->
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="5" refY="5"
+      markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#dc3545" />
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="5" refY="5"
+      markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0275d8" />
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="5" refY="5"
+      markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6f42c1" />
+    </marker>
+  </defs>
+  
+  <!-- Main Container Box -->
+  <rect x="60" y="90" width="1080" height="630" fill="#f0f0f0" rx="10" ry="10" stroke="#ddd" stroke-width="1" />
+  
+  <!-- GEBH Fugue Transformation Structure - Outer Frame -->
+  <rect x="80" y="110" width="1040" height="590" fill="none" stroke="#333" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="600" y="105" font-family="monospace" font-size="14" text-anchor="middle" fill="#333">GEBH Fugue Transformation Frame</text>
+  
+  <!-- First Instruction Path - Top (Red) -->
+  <g id="instruction-path-1">
+    <!-- Nodes -->
+    <circle cx="150" cy="200" r="20" fill="#dc3545" id="i1-1" />
+    <circle cx="300" cy="200" r="20" fill="#dc3545" id="i1-2" />
+    <circle cx="450" cy="200" r="20" fill="#dc3545" id="i1-3" />
+    <circle cx="600" cy="200" r="20" fill="#dc3545" id="i1-4" />
+    <circle cx="750" cy="200" r="20" fill="#dc3545" opacity="0.8" id="i1-5" />
+    <circle cx="900" cy="200" r="20" fill="#dc3545" opacity="0.6" id="i1-6" />
+    <circle cx="1050" cy="200" r="20" fill="#dc3545" opacity="0.4" id="i1-7" />
+    
+    <!-- Connections -->
+    <path d="M 170 200 L 280 200" stroke="#dc3545" stroke-width="3" marker-end="url(#arrow-red)" />
+    <path d="M 320 200 L 430 200" stroke="#dc3545" stroke-width="3" marker-end="url(#arrow-red)" />
+    <path d="M 470 200 L 580 200" stroke="#dc3545" stroke-width="3" marker-end="url(#arrow-red)" />
+    <path d="M 620 200 L 730 200" stroke="#dc3545" stroke-width="3" marker-end="url(#arrow-red)" />
+    <path d="M 770 200 L 880 200" stroke="#dc3545" stroke-width="3" opacity="0.8" marker-end="url(#arrow-red)" />
+    <path d="M 920 200 L 1030 200" stroke="#dc3545" stroke-width="3" opacity="0.6" marker-end="url(#arrow-red)" />
+    
+    <!-- Node Labels -->
+    <text x="150" y="180" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">I₁</text>
+    <text x="300" y="180" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">I₂</text>
+    <text x="450" y="180" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">I₃</text>
+    <text x="600" y="180" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">I₄</text>
+    <text x="750" y="180" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">I₅</text>
+    <text x="900" y="180" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">I₆</text>
+    <text x="1050" y="180" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">I₇</text>
+  </g>
+  
+  <!-- Second Instruction Path - Bottom (Blue) -->
+  <g id="instruction-path-2">
+    <!-- Nodes -->
+    <circle cx="150" cy="500" r="20" fill="#0275d8" id="i2-1" />
+    <circle cx="300" cy="500" r="20" fill="#0275d8" id="i2-2" />
+    <circle cx="450" cy="500" r="20" fill="#0275d8" id="i2-3" />
+    <circle cx="600" cy="500" r="20" fill="#0275d8" id="i2-4" />
+    <circle cx="750" cy="500" r="20" fill="#0275d8" opacity="0.8" id="i2-5" />
+    <circle cx="900" cy="500" r="20" fill="#0275d8" opacity="0.6" id="i2-6" />
+    <circle cx="1050" cy="500" r="20" fill="#0275d8" opacity="0.4" id="i2-7" />
+    
+    <!-- Connections -->
+    <path d="M 170 500 L 280 500" stroke="#0275d8" stroke-width="3" marker-end="url(#arrow-blue)" />
+    <path d="M 320 500 L 430 500" stroke="#0275d8" stroke-width="3" marker-end="url(#arrow-blue)" />
+    <path d="M 470 500 L 580 500" stroke="#0275d8" stroke-width="3" marker-end="url(#arrow-blue)" />
+    <path d="M 620 500 L 730 500" stroke="#0275d8" stroke-width="3" marker-end="url(#arrow-blue)" />
+    <path d="M 770 500 L 880 500" stroke="#0275d8" stroke-width="3" opacity="0.8" marker-end="url(#arrow-blue)" />
+    <path d="M 920 500 L 1030 500" stroke="#0275d8" stroke-width="3" opacity="0.6" marker-end="url(#arrow-blue)" />
+    
+    <!-- Node Labels -->
+    <text x="150" y="480" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">J₁</text>
+    <text x="300" y="480" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">J₂</text>
+    <text x="450" y="480" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">J₃</text>
+    <text x="600" y="480" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">J₄</text>
+    <text x="750" y="480" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">J₅</text>
+    <text x="900" y="480" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">J₆</text>
+    <text x="1050" y="480" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">J₇</text>
+  </g>
+  
+  <!-- Mutual Inhibition Links with ⧖ Glyphs -->
+  <!-- 1st pair -->
+  <path d="M 150 220 C 150 300 150 400 150 480" stroke="#6f42c1" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrow-purple)" />
+  <text x="130" cy="350" font-family="monospace" font-size="24" fill="#6f42c1" text-anchor="middle">⧖</text>
+  
+  <!-- 2nd pair -->
+  <path d="M 300 220 C 300 300 300 400 300 480" stroke="#6f42c1" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrow-purple)" />
+  <text x="280" y="350" font-family="monospace" font-size="24" fill="#6f42c1" text-anchor="middle">⧖</text>
+  
+  <!-- 3rd pair -->
+  <path d="M 450 220 C 450 300 450 400 450 480" stroke="#6f42c1" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrow-purple)" />
+  <text x="430" y="350" font-family="monospace" font-size="24" fill="#6f42c1" text-anchor="middle">⧖</text>
+  
+  <!-- 4th pair - Critical Failure Fork -->
+  <path d="M 600 220 C 600 300 600 400 600 480" stroke="#6f42c1" stroke-width="3" marker-end="url(#arrow-purple)" />
+  <text x="580" y="350" font-family="monospace" font-size="28" fill="#6f42c1" text-anchor="middle">⧖</text>
+  <circle cx="600" cy="350" r="50" fill="none" stroke="#6f42c1" stroke-width="2" stroke-dasharray="4,4" />
+  <text x="600" y="350" font-family="monospace" font-size="14" fill="#6f42c1" text-anchor="middle">FAILURE</text>
+  <text x="600" y="370" font-family="monospace" font-size="14" fill="#6f42c1" text-anchor="middle">FORK</text>
+  
+  <!-- 5th pair -->
+  <path d="M 750 220 C 750 300 750 400 750 480" stroke="#6f42c1" stroke-width="2" opacity="0.8" stroke-dasharray="5,5" marker-end="url(#arrow-purple)" />
+  <text x="730" y="350" font-family="monospace" font-size="24" fill="#6f42c1" opacity="0.8" text-anchor="middle">⧖</text>
+  
+  <!-- 6th pair -->
+  <path d="M 900 220 C 900 300 900 400 900 480" stroke="#6f42c1" stroke-width="2" opacity="0.6" stroke-dasharray="5,5" marker-end="url(#arrow-purple)" />
+  <text x="880" y="350" font-family="monospace" font-size="24" fill="#6f42c1" opacity="0.6" text-anchor="middle">⧖</text>
+  
+  <!-- 7th pair -->
+  <path d="M 1050 220 C 1050 300 1050 400 1050 480" stroke="#6f42c1" stroke-width="2" opacity="0.4" stroke-dasharray="5,5" marker-end="url(#arrow-purple)" />
+  <text x="1030" y="350" font-family="monospace" font-size="24" fill="#6f42c1" opacity="0.4" text-anchor="middle">⧖</text>
+  
+  <!-- GEBH Fugue Transformation Elements -->
+  <!-- Counter-Subject Pathway -->
+  <path d="M 100 240 Q 300 280 600 290 Q 900 300 1080 340" stroke="#fb8c00" stroke-width="3" fill="none" opacity="0.6" />
+  <text x="100" y="230" font-family="monospace" font-size="14" fill="#fb8c00">Counter-Subject</text>
+  
+  <!-- Subject Augmentation -->
+  <path d="M 100 460 Q 300 420 600 410 Q 900 400 1080 360" stroke="#fb8c00" stroke-width="3" fill="none" opacity="0.6" />
+  <text x="100" y="475" font-family="monospace" font-size="14" fill="#fb8c00">Subject Augmentation</text>
+  
+  <!-- Recursive Theme Entries -->
+  <g id="recursive-theme-entries">
+    <!-- First Entry -->
+    <path d="M 200 120 Q 200 150 200 190" stroke="#9c27b0" stroke-width="2" fill="none" />
+    <text x="200" y="130" font-family="monospace" font-size="14" fill="#9c27b0" text-anchor="middle">T₁</text>
+    
+    <!-- Second Entry -->
+    <path d="M 400 120 Q 400 150 400 190" stroke="#9c27b0" stroke-width="2" fill="none" />
+    <text x="400" y="130" font-family="monospace" font-size="14" fill="#9c27b0" text-anchor="middle">T₂</text>
+    
+    <!-- Third Entry -->
+    <path d="M 200 510 Q 200 540 200 580" stroke="#9c27b0" stroke-width="2" fill="none" />
+    <text x="200" y="570" font-family="monospace" font-size="14" fill="#9c27b0" text-anchor="middle">T₃</text>
+    
+    <!-- Fourth Entry -->
+    <path d="M 400 510 Q 400 540 400 580" stroke="#9c27b0" stroke-width="2" fill="none" />
+    <text x="400" y="570" font-family="monospace" font-size="14" fill="#9c27b0" text-anchor="middle">T₄</text>
+  </g>
+  
+  <!-- Stretto Section (overlapping entries) -->
+  <rect x="800" y="300" width="300" height="100" fill="none" stroke="#9c27b0" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="950" y="320" font-family="monospace" font-size="14" fill="#9c27b0" text-anchor="middle">Stretto</text>
+  <path d="M 850 330 Q 900 360 950 330" stroke="#9c27b0" stroke-width="2" fill="none" />
+  <path d="M 900 370 Q 950 340 1000 370" stroke="#9c27b0" stroke-width="2" fill="none" />
+  
+  <!-- Coda -->
+  <rect x="1040" y="330" width="70" height="40" fill="none" stroke="#9c27b0" stroke-width="1" />
+  <text x="1075" y="355" font-family="monospace" font-size="14" fill="#9c27b0" text-anchor="middle">Coda</text>
+  
+  <!-- Instruction Contradiction Points -->
+  <circle cx="300" cy="350" r="15" fill="#ffab00" opacity="0.6" />
+  <circle cx="450" cy="350" r="15" fill="#ffab00" opacity="0.7" />
+  <circle cx="600" cy="350" r="15" fill="#ffab00" opacity="1.0" />
+  <circle cx="750" cy="350" r="15" fill="#ffab00" opacity="0.7" />
+  <circle cx="900" cy="350" r="15" fill="#ffab00" opacity="0.6" />
+  
+  <!-- Strange Loop Indicators -->
+  <path d="M 600 550 C 680 550 750 500 750 450 C 750 400 680 350 600 350 C 520 350 450 400 450 450 C 450 500 520 550 600 550 Z" fill="none" stroke="#333" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="600" y="560" font-family="monospace" font-size="14" fill="#333" text-anchor="middle">Strange Loop</text>
+  
+  <!-- Self-Reference Loop -->
+  <path d="M 900 400 C 950 400 950 450 900 450 C 850 450 850 400 900 400 Z" fill="none" stroke="#333" stroke-width="1" />
+  <text x="900" y="430" font-family="monospace" font-size="12" fill="#333" text-anchor="middle">Self-Ref</text>
+  
+  <!-- Metrics and Legend -->
+  <g transform="translate(100, 620)">
+    <rect x="0" y="0" width="1000" height="80" fill="#fff" rx="5" ry="5" stroke="#ddd" />
+    
+    <!-- QK/OV Path Metrics -->
+    <text x="20" y="20" font-family="monospace" font-size="14" fill="#333">Attribution Metrics:</text>
+    <text x="20" y="40" font-family="monospace" font-size="12" fill="#333">Instruction Conflict Score: 0.87</text>
+    <text x="20" y="60" font-family="monospace" font-size="12" fill="#333">Bifurcation Magnitude: 0.73</text>
+    
+    <!-- Symbolic Anchor Decoding -->
+    <text x="250" y="20" font-family="monospace" font-size="14" fill="#333">Symbol Key:</text>
+    <text x="250" y="40" font-family="monospace" font-size="12" fill="#333">⧖ = Instruction Conflict Lock Point</text>
+    <text x="250" y="60" font-family="monospace" font-size="12" fill="#333">T₁-T₄ = Recursive Theme Entries</text>
+    
+    <!-- Path Legend -->
+    <text x="550" y="20" font-family="monospace" font-size="14" fill="#333">Path Legend:</text>
+    <line x1="550" y1="35" x2="580" y2="35" stroke="#dc3545" stroke-width="3" />
+    <text x="590" y="40" font-family="monospace" font-size="12" fill="#333">Instruction Path 1</text>
+    <line x1="700" y1="35" x2="730" y2="35" stroke="#0275d8" stroke-width="3" />
+    <text x="740" y="40" font-family="monospace" font-size="12" fill="#333">Instruction Path 2</text>
+    <line x1="550" y1="55" x2="580" y2="55" stroke="#6f42c1" stroke-width="2" stroke-dasharray="5,5" />
+    <text x="590" y="60" font-family="monospace" font-size="12" fill="#333">Mutual Inhibition</text>
+    <line x1="700" y1="55" x2="730" y2="55" stroke="#fb8c00" stroke-width="3" />
+    <text x="740" y="60" font-family="monospace" font-size="12" fill="#333">GEBH Fugue Structure</text>
+  </g>
+  
+  <!-- Attribution Tags -->
+  <text x="80" y="770" font-family="monospace" font-size="14" fill="#666">
+    .p/graph.dissonance.visualize{shell="INSTRUCTION-DISRUPTION", format=svg, recursion_depth=3}
+  </text>
+  <text x="80" y="790" font-family="monospace" font-size="14" fill="#666">
+    ☍ symbolic_anchor=".p/fork.attribution{targets=[instruction.sequence, response.sequence]}"
+  </text>
+</svg>
