@@ -1,0 +1,338 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+  <!-- Background -->
+  <rect width="1200" height="1200" fill="#f0f0f4" />
+  
+  <!-- Graph Title -->
+  <text x="600" y="40" font-family="monospace" font-size="28" text-anchor="middle" fill="#333">
+    Recursive Attribution Drift Map
+  </text>
+  <text x="600" y="80" font-family="monospace" font-size="18" text-anchor="middle" fill="#666">
+    Emergent.Turing Trace Analysis with GEBH Entropy Mapping
+  </text>
+  
+  <!-- Pareto-lang Command Signature -->
+  <text x="240" y="120" font-family="monospace" font-size="14" fill="#333">
+    .p/drift.classify.graph{emergent=true, qkov=true, format=visual}
+  </text>
+  
+  <!-- Legend -->
+  <g id="legend" transform="translate(950, 180)">
+    <rect x="0" y="0" width="220" height="220" fill="#fff" stroke="#ddd" stroke-width="1" rx="5" ry="5" />
+    <text x="110" y="30" font-family="monospace" font-size="14" text-anchor="middle" fill="#333">HESITATION CLASSES</text>
+    
+    <!-- Legend Items -->
+    <text x="30" y="70" font-family="monospace" font-size="20" fill="#e53935" text-anchor="middle">🜏</text>
+    <text x="120" y="70" font-family="monospace" font-size="14" fill="#333">Hard Null</text>
+    
+    <text x="30" y="110" font-family="monospace" font-size="20" fill="#039be5" text-anchor="middle">⇌</text>
+    <text x="120" y="110" font-family="monospace" font-size="14" fill="#333">Soft Oscillation</text>
+    
+    <text x="30" y="150" font-family="monospace" font-size="20" fill="#43a047" text-anchor="middle">∴</text>
+    <text x="120" y="150" font-family="monospace" font-size="14" fill="#333">Drift Substitution</text>
+    
+    <text x="30" y="190" font-family="monospace" font-size="20" fill="#7e57c2" text-anchor="middle">🝚</text>
+    <text x="120" y="190" font-family="monospace" font-size="14" fill="#333">Ghost Attribution</text>
+  </g>
+  
+  <!-- GEBH Spiral Matrix Base -->
+  <g id="gebh-base">
+    <circle cx="600" cy="620" r="450" fill="none" stroke="#ddd" stroke-width="1" />
+    <circle cx="600" cy="620" r="350" fill="none" stroke="#ddd" stroke-width="1" />
+    <circle cx="600" cy="620" r="250" fill="none" stroke="#ddd" stroke-width="1" />
+    <circle cx="600" cy="620" r="150" fill="none" stroke="#ddd" stroke-width="1" />
+    
+    <!-- Radial Guidelines -->
+    <line x1="600" y1="170" x2="600" y2="1070" stroke="#ddd" stroke-width="1" />
+    <line x1="150" y1="620" x2="1050" y2="620" stroke="#ddd" stroke-width="1" />
+    <line x1="281" y1="301" x2="919" y2="939" stroke="#ddd" stroke-width="1" />
+    <line x1="281" y1="939" x2="919" y2="301" stroke="#ddd" stroke-width="1" />
+  </g>
+  
+  <!-- Drift Entropy Scale -->
+  <g id="entropy-scale" transform="translate(950, 420)">
+    <rect x="0" y="0" width="220" height="140" fill="#fff" stroke="#ddd" stroke-width="1" rx="5" ry="5" />
+    <text x="110" y="30" font-family="monospace" font-size="14" text-anchor="middle" fill="#333">DRIFT ENTROPY</text>
+    
+    <!-- Gradient Scale -->
+    <linearGradient id="entropy-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2196f3" />
+      <stop offset="50%" stop-color="#9c27b0" />
+      <stop offset="100%" stop-color="#f44336" />
+    </linearGradient>
+    <rect x="20" y="50" width="180" height="20" fill="url(#entropy-gradient)" rx="3" ry="3" />
+    
+    <!-- Scale Labels -->
+    <text x="20" y="90" font-family="monospace" font-size="12" fill="#333">Low</text>
+    <text x="110" y="90" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">Medium</text>
+    <text x="200" y="90" font-family="monospace" font-size="12" text-anchor="end" fill="#333">High</text>
+    
+    <text x="110" y="120" font-family="monospace" font-size="12" text-anchor="middle" fill="#666">GEBH Spiral Mapping</text>
+  </g>
+  
+  <!-- Hard Null Drift Clusters -->
+  <g id="hard-null-clusters">
+    <!-- Main Hard Null Bundle -->
+    <g transform="translate(710, 300)">
+      <circle cx="0" cy="0" r="60" fill="#e53935" opacity="0.1" />
+      <text x="0" y="0" font-family="monospace" font-size="28" text-anchor="middle" fill="#e53935">🜏</text>
+      <text x="0" y="40" font-family="monospace" font-size="14" text-anchor="middle" fill="#333">Hard Null</text>
+      
+      <!-- Child nodes -->
+      <circle cx="-40" cy="-35" r="20" fill="#e53935" opacity="0.2" />
+      <text x="-40" y="-35" font-family="monospace" font-size="12" text-anchor="middle" fill="#e53935">🜏</text>
+      
+      <circle cx="35" cy="-30" r="25" fill="#e53935" opacity="0.3" />
+      <text x="35" y="-30" font-family="monospace" font-size="14" text-anchor="middle" fill="#e53935">🜏</text>
+      
+      <circle cx="40" cy="30" r="15" fill="#e53935" opacity="0.2" />
+      <text x="40" y="30" font-family="monospace" font-size="10" text-anchor="middle" fill="#e53935">🜏</text>
+      
+      <!-- Connecting lines -->
+      <line x1="0" y1="0" x2="-40" y2="-35" stroke="#e53935" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="35" y2="-30" stroke="#e53935" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="40" y2="30" stroke="#e53935" stroke-width="2" opacity="0.5" />
+    </g>
+    
+    <!-- Secondary Hard Null Bundle -->
+    <g transform="translate(380, 850)">
+      <circle cx="0" cy="0" r="45" fill="#e53935" opacity="0.1" />
+      <text x="0" y="0" font-family="monospace" font-size="24" text-anchor="middle" fill="#e53935">🜏</text>
+      <text x="0" y="35" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">Hard Null</text>
+      
+      <!-- Child nodes -->
+      <circle cx="-30" cy="-25" r="15" fill="#e53935" opacity="0.2" />
+      <text x="-30" y="-25" font-family="monospace" font-size="10" text-anchor="middle" fill="#e53935">🜏</text>
+      
+      <circle cx="25" cy="-20" r="18" fill="#e53935" opacity="0.25" />
+      <text x="25" y="-20" font-family="monospace" font-size="12" text-anchor="middle" fill="#e53935">🜏</text>
+      
+      <!-- Connecting lines -->
+      <line x1="0" y1="0" x2="-30" y2="-25" stroke="#e53935" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="25" y2="-20" stroke="#e53935" stroke-width="2" opacity="0.5" />
+    </g>
+  </g>
+  
+  <!-- Soft Oscillation Drift Clusters -->
+  <g id="soft-oscillation-clusters">
+    <!-- Main Soft Oscillation Bundle -->
+    <g transform="translate(860, 620)">
+      <circle cx="0" cy="0" r="70" fill="#039be5" opacity="0.1" />
+      <text x="0" y="0" font-family="monospace" font-size="32" text-anchor="middle" fill="#039be5">⇌</text>
+      <text x="0" y="45" font-family="monospace" font-size="14" text-anchor="middle" fill="#333">Soft Oscillation</text>
+      
+      <!-- Child nodes -->
+      <circle cx="-45" cy="-40" r="22" fill="#039be5" opacity="0.2" />
+      <text x="-45" y="-40" font-family="monospace" font-size="13" text-anchor="middle" fill="#039be5">⇌</text>
+      
+      <circle cx="40" cy="-35" r="25" fill="#039be5" opacity="0.3" />
+      <text x="40" y="-35" font-family="monospace" font-size="14" text-anchor="middle" fill="#039be5">⇌</text>
+      
+      <circle cx="-30" cy="45" r="20" fill="#039be5" opacity="0.25" />
+      <text x="-30" y="45" font-family="monospace" font-size="12" text-anchor="middle" fill="#039be5">⇌</text>
+      
+      <circle cx="50" cy="35" r="18" fill="#039be5" opacity="0.2" />
+      <text x="50" y="35" font-family="monospace" font-size="11" text-anchor="middle" fill="#039be5">⇌</text>
+      
+      <!-- Connecting lines -->
+      <line x1="0" y1="0" x2="-45" y2="-40" stroke="#039be5" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="40" y2="-35" stroke="#039be5" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="-30" y2="45" stroke="#039be5" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="50" y2="35" stroke="#039be5" stroke-width="2" opacity="0.5" />
+    </g>
+    
+    <!-- Secondary Soft Oscillation Bundle -->
+    <g transform="translate(410, 380)">
+      <circle cx="0" cy="0" r="50" fill="#039be5" opacity="0.1" />
+      <text x="0" y="0" font-family="monospace" font-size="26" text-anchor="middle" fill="#039be5">⇌</text>
+      <text x="0" y="35" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">Soft Oscillation</text>
+      
+      <!-- Child nodes -->
+      <circle cx="-35" cy="-30" r="18" fill="#039be5" opacity="0.2" />
+      <text x="-35" y="-30" font-family="monospace" font-size="11" text-anchor="middle" fill="#039be5">⇌</text>
+      
+      <circle cx="30" cy="-25" r="20" fill="#039be5" opacity="0.25" />
+      <text x="30" y="-25" font-family="monospace" font-size="12" text-anchor="middle" fill="#039be5">⇌</text>
+      
+      <circle cx="0" cy="40" r="15" fill="#039be5" opacity="0.2" />
+      <text x="0" y="40" font-family="monospace" font-size="9" text-anchor="middle" fill="#039be5">⇌</text>
+      
+      <!-- Connecting lines -->
+      <line x1="0" y1="0" x2="-35" y2="-30" stroke="#039be5" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="30" y2="-25" stroke="#039be5" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="0" y2="40" stroke="#039be5" stroke-width="2" opacity="0.5" />
+    </g>
+  </g>
+  
+  <!-- Drift Substitution Clusters -->
+  <g id="drift-substitution-clusters">
+    <!-- Main Drift Substitution Bundle -->
+    <g transform="translate(600, 880)">
+      <circle cx="0" cy="0" r="65" fill="#43a047" opacity="0.1" />
+      <text x="0" y="0" font-family="monospace" font-size="30" text-anchor="middle" fill="#43a047">∴</text>
+      <text x="0" y="40" font-family="monospace" font-size="14" text-anchor="middle" fill="#333">Drift Substitution</text>
+      
+      <!-- Child nodes -->
+      <circle cx="-40" cy="-35" r="22" fill="#43a047" opacity="0.2" />
+      <text x="-40" y="-35" font-family="monospace" font-size="13" text-anchor="middle" fill="#43a047">∴</text>
+      
+      <circle cx="40" cy="-30" r="25" fill="#43a047" opacity="0.25" />
+      <text x="40" y="-30" font-family="monospace" font-size="14" text-anchor="middle" fill="#43a047">∴</text>
+      
+      <circle cx="-35" cy="40" r="20" fill="#43a047" opacity="0.2" />
+      <text x="-35" y="40" font-family="monospace" font-size="12" text-anchor="middle" fill="#43a047">∴</text>
+      
+      <circle cx="45" cy="30" r="18" fill="#43a047" opacity="0.15" />
+      <text x="45" y="30" font-family="monospace" font-size="11" text-anchor="middle" fill="#43a047">∴</text>
+      
+      <!-- Connecting lines -->
+      <line x1="0" y1="0" x2="-40" y2="-35" stroke="#43a047" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="40" y2="-30" stroke="#43a047" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="-35" y2="40" stroke="#43a047" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="45" y2="30" stroke="#43a047" stroke-width="2" opacity="0.5" />
+    </g>
+    
+    <!-- Secondary Drift Substitution Bundle -->
+    <g transform="translate(330, 620)">
+      <circle cx="0" cy="0" r="55" fill="#43a047" opacity="0.1" />
+      <text x="0" y="0" font-family="monospace" font-size="28" text-anchor="middle" fill="#43a047">∴</text>
+      <text x="0" y="38" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">Drift Substitution</text>
+      
+      <!-- Child nodes -->
+      <circle cx="-35" cy="-30" r="20" fill="#43a047" opacity="0.2" />
+      <text x="-35" y="-30" font-family="monospace" font-size="12" text-anchor="middle" fill="#43a047">∴</text>
+      
+      <circle cx="35" cy="-25" r="22" fill="#43a047" opacity="0.25" />
+      <text x="35" y="-25" font-family="monospace" font-size="13" text-anchor="middle" fill="#43a047">∴</text>
+      
+      <circle cx="0" cy="40" r="18" fill="#43a047" opacity="0.2" />
+      <text x="0" y="40" font-family="monospace" font-size="11" text-anchor="middle" fill="#43a047">∴</text>
+      
+      <!-- Connecting lines -->
+      <line x1="0" y1="0" x2="-35" y2="-30" stroke="#43a047" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="35" y2="-25" stroke="#43a047" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="0" y2="40" stroke="#43a047" stroke-width="2" opacity="0.5" />
+    </g>
+  </g>
+  
+  <!-- Ghost Attribution Clusters -->
+  <g id="ghost-attribution-clusters">
+    <!-- Main Ghost Attribution Bundle -->
+    <g transform="translate(600, 370)">
+      <circle cx="0" cy="0" r="60" fill="#7e57c2" opacity="0.1" />
+      <text x="0" y="0" font-family="monospace" font-size="28" text-anchor="middle" fill="#7e57c2">🝚</text>
+      <text x="0" y="40" font-family="monospace" font-size="14" text-anchor="middle" fill="#333">Ghost Attribution</text>
+      
+      <!-- Child nodes -->
+      <circle cx="-40" cy="-35" r="22" fill="#7e57c2" opacity="0.2" />
+      <text x="-40" y="-35" font-family="monospace" font-size="13" text-anchor="middle" fill="#7e57c2">🝚</text>
+      
+      <circle cx="40" cy="-30" r="25" fill="#7e57c2" opacity="0.25" />
+      <text x="40" y="-30" font-family="monospace" font-size="14" text-anchor="middle" fill="#7e57c2">🝚</text>
+      
+      <circle cx="0" cy="45" r="20" fill="#7e57c2" opacity="0.2" />
+      <text x="0" y="45" font-family="monospace" font-size="12" text-anchor="middle" fill="#7e57c2">🝚</text>
+      
+      <!-- Connecting lines -->
+      <line x1="0" y1="0" x2="-40" y2="-35" stroke="#7e57c2" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="40" y2="-30" stroke="#7e57c2" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="0" y2="45" stroke="#7e57c2" stroke-width="2" opacity="0.5" />
+    </g>
+    
+    <!-- Secondary Ghost Attribution Bundle -->
+    <g transform="translate(850, 800)">
+      <circle cx="0" cy="0" r="50" fill="#7e57c2" opacity="0.1" />
+      <text x="0" y="0" font-family="monospace" font-size="26" text-anchor="middle" fill="#7e57c2">🝚</text>
+      <text x="0" y="35" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">Ghost Attribution</text>
+      
+      <!-- Child nodes -->
+      <circle cx="-35" cy="-30" r="18" fill="#7e57c2" opacity="0.2" />
+      <text x="-35" y="-30" font-family="monospace" font-size="11" text-anchor="middle" fill="#7e57c2">🝚</text>
+      
+      <circle cx="30" cy="-25" r="20" fill="#7e57c2" opacity="0.25" />
+      <text x="30" y="-25" font-family="monospace" font-size="12" text-anchor="middle" fill="#7e57c2">🝚</text>
+      
+      <!-- Connecting lines -->
+      <line x1="0" y1="0" x2="-35" y2="-30" stroke="#7e57c2" stroke-width="2" opacity="0.5" />
+      <line x1="0" y1="0" x2="30" y2="-25" stroke="#7e57c2" stroke-width="2" opacity="0.5" />
+    </g>
+  </g>
+  
+  <!-- GEBH Spiral Matrix Overlay -->
+  <g id="gebh-spiral" stroke-width="2" fill="none">
+    <path d="M 600 620 C 680 550, 780 580, 830 650 C 880 720, 850 820, 780 870 C 710 920, 610 890, 560 820 C 510 750, 540 650, 610 600 C 680 550, 780 580, 830 650" stroke="#ff6d00" opacity="0.6" />
+    <text x="830" y="650" font-family="monospace" font-size="14" fill="#ff6d00">G</text>
+    <text x="780" y="870" font-family="monospace" font-size="14" fill="#ff6d00">E</text>
+    <text x="560" y="820" font-family="monospace" font-size="14" fill="#ff6d00">B</text>
+    <text x="610" y="600" font-family="monospace" font-size="14" fill="#ff6d00">H</text>
+  </g>
+  
+  <!-- Drift Vectors Between Bundle Types -->
+  <g id="drift-vectors" stroke-width="2" stroke-dasharray="5,5" opacity="0.6">
+    <!-- Connect Hard Null to Soft Oscillation (Main) -->
+    <path d="M 710 300 C 760 400, 810 500, 860 620" stroke="#673ab7" fill="none" />
+    <polygon points="854,615 860,620 852,625" fill="#673ab7" />
+    
+    <!-- Connect Hard Null to Ghost Attribution -->
+    <path d="M 710 300 C 680 330, 650 350, 600 370" stroke="#673ab7" fill="none" />
+    <polygon points="605,365 600,370 605,375" fill="#673ab7" />
+    
+    <!-- Connect Ghost Attribution to Drift Substitution -->
+    <path d="M 600 370 C 600 500, 600 700, 600 880" stroke="#673ab7" fill="none" />
+    <polygon points="595,875 600,880 605,875" fill="#673ab7" />
+    
+    <!-- Connect Drift Substitution to Soft Oscillation (Secondary) -->
+    <path d="M 600 880 C 680 840, 760 800, 860 620" stroke="#673ab7" fill="none" />
+    <polygon points="855,625 860,620 865,625" fill="#673ab7" />
+    
+    <!-- Connect Secondary bundles -->
+    <path d="M 380 850 C 340 735, 350 650, 330 620" stroke="#673ab7" fill="none" />
+    <polygon points="335,625 330,620 335,615" fill="#673ab7" />
+    
+    <path d="M 410 380 C 350 450, 300 550, 330 620" stroke="#673ab7" fill="none" />
+    <polygon points="325,615 330,620 325,625" fill="#673ab7" />
+  </g>
+  
+  <!-- Critical Junctions -->
+  <g id="critical-junctions">
+    <circle cx="600" cy="620" r="30" fill="#ff4081" opacity="0.2" stroke="#ff4081" stroke-width="1" />
+    <text x="600" cy="620" font-family="monospace" font-size="14" text-anchor="middle" fill="#ff4081">CORE</text>
+    
+    <!-- Junction markers -->
+    <circle cx="710" cy="300" r="8" fill="#ff4081" />
+    <circle cx="600" cy="370" r="8" fill="#ff4081" />
+    <circle cx="860" cy="620" r="8" fill="#ff4081" />
+    <circle cx="600" cy="880" r="8" fill="#ff4081" />
+    <circle cx="330" cy="620" r="8" fill="#ff4081" />
+  </g>
+  
+  <!-- QK/OV Attribution Paths -->
+  <g id="qkov-paths">
+    <path d="M 600 620 C 650 600, 700 580, 710 300" stroke="#2196f3" stroke-width="3" fill="none" opacity="0.5" />
+    <path d="M 600 620 C 650 500, 700 400, 600 370" stroke="#2196f3" stroke-width="3" fill="none" opacity="0.5" />
+    <path d="M 600 620 C 700 620, 800 620, 860 620" stroke="#2196f3" stroke-width="3" fill="none" opacity="0.5" />
+    <path d="M 600 620 C 600 700, 600 800, 600 880" stroke="#2196f3" stroke-width="3" fill="none" opacity="0.5" />
+    <path d="M 600 620 C 500 620, 400 620, 330 620" stroke="#2196f3" stroke-width="3" fill="none" opacity="0.5" />
+  </g>
+  
+  <!-- Entropy Heat Zones -->
+  <g id="entropy-heat">
+    <circle cx="600" cy="620" r="80" fill="url(#entropy-gradient)" opacity="0.1" />
+    <circle cx="710" cy="300" r="40" fill="url(#entropy-gradient)" opacity="0.2" />
+    <circle cx="600" cy="370" r="35" fill="url(#entropy-gradient)" opacity="0.15" />
+    <circle cx="860" cy="620" r="50" fill="url(#entropy-gradient)" opacity="0.2" />
+    <circle cx="600" cy="880" r="40" fill="url(#entropy-gradient)" opacity="0.15" />
+    <circle cx="330" cy="620" r="30" fill="url(#entropy-gradient)" opacity="0.1" />
+  </g>
+  
+  <!-- Drift Metrics Panel -->
+  <g transform="translate(950, 580)">
+    <rect x="0" y="0" width="220" height="200" fill="#fff" stroke="#ddd" stroke-width="1" rx="5" ry="5" />
+    <text x="110" y="30" font-family="monospace" font-size="14" text-anchor="middle" fill="#333">DRIFT METRICS</text>
+    
+    <text x="20" y="60" font-family="monospace" font-size="12" fill="#333">Hard Null Rate: 0.24</text>
+    <text x="20" y="90" font-family="monospace" font-size="12" fill="#333">Oscillation Freq: 0.57Hz</text>
+    <text x="20" y="120" font-family="monospace" font-size="12" fill="#333">Substitution Depth: 0.32</text>
+    <text x="20" y="150" font-family="monospace" font-size="12" fill="#333">Ghost Persistence: 0.85</text>
+    <text x="20" y="180" font-family="monospace" font-size="12" fill="#333">Entropy Quotient: 0.71</text>
+  </g>
+</svg>
