@@ -1,8 +1,11 @@
 # Claude 
 
 ## Developer and Interpretation UI Consoles
+## [🪞 Recursive Mirror](https://claude.ai/public/artifacts/f26a3d07-f911-47dc-92bf-ed4fa10b2f33)
 
-## [🪞 Thought Memory Cache](https://claude.ai/public/artifacts/5a30c13d-b242-456a-8ced-435933967a8a)
+<img width="907" alt="image" src="https://github.com/user-attachments/assets/b458090a-5136-46ca-890c-8bb42524d2ee" />
+
+## [🧶 Thought Memory Cache](https://claude.ai/public/artifacts/5a30c13d-b242-456a-8ced-435933967a8a)
 
 <img width="905" alt="image" src="https://github.com/user-attachments/assets/58468571-f77d-427c-8d83-830f8a064bce" />
 
@@ -18,7 +21,7 @@
 
 <img width="903" alt="image" src="https://github.com/user-attachments/assets/82e48389-34b4-4c3b-9156-f3521fb95d90" />
 
-## [🔮 Glyph Memory Interface](https://claude.site/artifacts/95887fe2-feb6-4ddf-b36f-d6f2d25769b7)
+## [🕓 Glyph Memory Interface](https://claude.site/artifacts/95887fe2-feb6-4ddf-b36f-d6f2d25769b7)
 <img width="904" alt="image" src="https://github.com/user-attachments/assets/a7fcf396-8028-4154-90c5-58349db98052" />
 
 ## [🧠 Recursive Forgetting Terminal](https://claude.site/artifacts/3dc8a3c0-9e74-44d7-a5b2-5eb570c48d5b)
