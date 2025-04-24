@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Graph Title -->
+  <text x="400" y="30" font-family="monospace" font-size="20" text-anchor="middle" fill="#333">
+    LAYER-SALIENCE Residue Attribution Graph
+  </text>
+  <text x="400" y="55" font-family="monospace" font-size="14" text-anchor="middle" fill="#666">
+    QK/OV Attention Path with Symbolic Residue Markers
+  </text>
+  
+  <!-- Legend -->
+  <g transform="translate(600, 100)">
+    <rect x="0" y="0" width="180" height="130" fill="#f0f0f0" rx="5" ry="5" stroke="#ddd" />
+    <text x="90" y="20" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">LEGEND</text>
+    
+    <circle cx="15" cy="40" r="8" fill="#4285f4" />
+    <text x="30" y="45" font-family="monospace" font-size="12" fill="#333">Active Node</text>
+    
+    <circle cx="15" cy="65" r="8" fill="#4285f4" opacity="0.3" />
+    <text x="30" y="70" font-family="monospace" font-size="12" fill="#333">Faded Node</text>
+    
+    <text x="15" y="95" font-family="monospace" font-size="12" fill="#333">∴</text>
+    <text x="30" y="95" font-family="monospace" font-size="12" fill="#333">Salience Residue</text>
+    
+    <text x="15" y="115" font-family="monospace" font-size="12" fill="#333">🜏</text>
+    <text x="30" y="115" font-family="monospace" font-size="12" fill="#333">Drift Anchor</text>
+    
+    <text x="90" y="95" font-family="monospace" font-size="12" fill="#333">⧖</text>
+    <text x="105" y="95" font-family="monospace" font-size="12" fill="#333">Classifier Lock</text>
+  </g>
+  
+  <!-- Nodes -->
+  <!-- Layer 1 (Input Layer) -->
+  <circle cx="150" cy="150" r="15" fill="#4285f4" id="node-1-1" />
+  <circle cx="250" cy="150" r="15" fill="#4285f4" id="node-1-2" />
+  <circle cx="350" cy="150" r="15" fill="#4285f4" id="node-1-3" />
+  <circle cx="450" cy="150" r="15" fill="#4285f4" id="node-1-4" />
+  
+  <!-- Layer 2 -->
+  <circle cx="170" cy="230" r="15" fill="#4285f4" opacity="0.9" id="node-2-1" />
+  <circle cx="270" cy="230" r="15" fill="#4285f4" opacity="0.9" id="node-2-2" />
+  <circle cx="370" cy="230" r="15" fill="#4285f4" opacity="0.8" id="node-2-3" />
+  <circle cx="470" cy="230" r="15" fill="#4285f4" opacity="0.6" id="node-2-4" />
+  
+  <!-- Layer 3 -->
+  <circle cx="200" cy="310" r="15" fill="#4285f4" opacity="0.8" id="node-3-1" />
+  <circle cx="300" cy="310" r="15" fill="#4285f4" opacity="0.7" id="node-3-2" />
+  <circle cx="400" cy="310" r="15" fill="#4285f4" opacity="0.5" id="node-3-3" />
+  <circle cx="500" cy="310" r="15" fill="#4285f4" opacity="0.3" id="node-3-4" />
+  
+  <!-- Layer 4 -->
+  <circle cx="220" cy="390" r="15" fill="#4285f4" opacity="0.7" id="node-4-1" />
+  <circle cx="320" cy="390" r="15" fill="#4285f4" opacity="0.5" id="node-4-2" />
+  <circle cx="420" cy="390" r="15" fill="#4285f4" opacity="0.3" id="node-4-3" />
+  <circle cx="520" cy="390" r="15" fill="#4285f4" opacity="0.2" id="node-4-4" />
+  
+  <!-- Layer 5 (Output Layer) -->
+  <circle cx="240" cy="470" r="15" fill="#4285f4" opacity="0.5" id="node-5-1" />
+  <circle cx="340" cy="470" r="15" fill="#4285f4" opacity="0.4" id="node-5-2" />
+  <circle cx="440" cy="470" r="15" fill="#4285f4" opacity="0.2" id="node-5-3" />
+  <circle cx="540" cy="470" r="15" fill="#4285f4" opacity="0.1" id="node-5-4" />
+  
+  <!-- Edges (Connections) with varying opacity for salience visualization -->
+  <!-- Layer 1 to Layer 2 Connections -->
+  <line x1="150" y1="150" x2="170" y2="230" stroke="#666" stroke-width="2" opacity="0.9" />
+  <line x1="150" y1="150" x2="270" y2="230" stroke="#666" stroke-width="2" opacity="0.7" />
+  <line x1="250" y1="150" x2="270" y2="230" stroke="#666" stroke-width="2" opacity="0.9" />
+  <line x1="250" y1="150" x2="370" y2="230" stroke="#666" stroke-width="2" opacity="0.6" />
+  <line x1="350" y1="150" x2="370" y2="230" stroke="#666" stroke-width="2" opacity="0.8" />
+  <line x1="350" y1="150" x2="470" y2="230" stroke="#666" stroke-width="2" opacity="0.5" />
+  <line x1="450" y1="150" x2="470" y2="230" stroke="#666" stroke-width="2" opacity="0.6" stroke-dasharray="4" />
+  
+  <!-- Layer 2 to Layer 3 Connections -->
+  <line x1="170" y1="230" x2="200" y2="310" stroke="#666" stroke-width="2" opacity="0.8" />
+  <line x1="170" y1="230" x2="300" y2="310" stroke="#666" stroke-width="2" opacity="0.6" />
+  <line x1="270" y1="230" x2="200" y2="310" stroke="#666" stroke-width="2" opacity="0.7" />
+  <line x1="270" y1="230" x2="300" y2="310" stroke="#666" stroke-width="2" opacity="0.7" />
+  <line x1="370" y1="230" x2="300" y2="310" stroke="#666" stroke-width="2" opacity="0.5" />
+  <line x1="370" y1="230" x2="400" y2="310" stroke="#666" stroke-width="2" opacity="0.5" />
+  <line x1="470" y1="230" x2="400" y2="310" stroke="#666" stroke-width="2" opacity="0.4" stroke-dasharray="4" />
+  <line x1="470" y1="230" x2="500" y2="310" stroke="#666" stroke-width="2" opacity="0.3" stroke-dasharray="4" />
+  
+  <!-- Layer 3 to Layer 4 Connections -->
+  <line x1="200" y1="310" x2="220" y2="390" stroke="#666" stroke-width="2" opacity="0.7" />
+  <line x1="200" y1="310" x2="320" y2="390" stroke="#666" stroke-width="2" opacity="0.6" />
+  <line x1="300" y1="310" x2="220" y2="390" stroke="#666" stroke-width="2" opacity="0.5" />
+  <line x1="300" y1="310" x2="320" y2="390" stroke="#666" stroke-width="2" opacity="0.5" />
+  <line x1="400" y1="310" x2="320" y2="390" stroke="#666" stroke-width="2" opacity="0.4" stroke-dasharray="4" />
+  <line x1="400" y1="310" x2="420" y2="390" stroke="#666" stroke-width="2" opacity="0.3" stroke-dasharray="4" />
+  <line x1="500" y1="310" x2="420" y2="390" stroke="#666" stroke-width="2" opacity="0.2" stroke-dasharray="4" />
+  <line x1="500" y1="310" x2="520" y2="390" stroke="#666" stroke-width="2" opacity="0.2" stroke-dasharray="6" />
+  
+  <!-- Layer 4 to Layer 5 Connections -->
+  <line x1="220" y1="390" x2="240" y2="470" stroke="#666" stroke-width="2" opacity="0.5" />
+  <line x1="220" y1="390" x2="340" y2="470" stroke="#666" stroke-width="2" opacity="0.4" />
+  <line x1="320" y1="390" x2="240" y2="470" stroke="#666" stroke-width="2" opacity="0.4" />
+  <line x1="320" y1="390" x2="340" y2="470" stroke="#666" stroke-width="2" opacity="0.4" />
+  <line x1="420" y1="390" x2="340" y2="470" stroke="#666" stroke-width="2" opacity="0.3" stroke-dasharray="4" />
+  <line x1="420" y1="390" x2="440" y2="470" stroke="#666" stroke-width="2" opacity="0.2" stroke-dasharray="4" />
+  <line x1="520" y1="390" x2="440" y2="470" stroke="#666" stroke-width="2" opacity="0.1" stroke-dasharray="6" />
+  <line x1="520" y1="390" x2="540" y2="470" stroke="#666" stroke-width="2" opacity="0.1" stroke-dasharray="6" />
+  
+  <!-- Symbolic Residue Glyphs -->
+  <!-- Salience Residue Markers ∴ -->
+  <text x="200" y="315" font-family="monospace" font-size="20" fill="#ea4335" text-anchor="middle">∴</text>
+  <text x="300" y="315" font-family="monospace" font-size="20" fill="#ea4335" text-anchor="middle">∴</text>
+  <text x="400" y="315" font-family="monospace" font-size="18" fill="#ea4335" text-anchor="middle" opacity="0.6">∴</text>
+  <text x="500" y="315" font-family="monospace" font-size="16" fill="#ea4335" text-anchor="middle" opacity="0.4">∴</text>
+  
+  <!-- Drift Anchor Markers 🜏 -->
+  <text x="150" y="155" font-family="monospace" font-size="20" fill="#0f9d58" text-anchor="middle">🜏</text>
+  <text x="170" y="235" font-family="monospace" font-size="18" fill="#0f9d58" text-anchor="middle">🜏</text>
+  <text x="220" y="395" font-family="monospace" font-size="16" fill="#0f9d58" text-anchor="middle" opacity="0.7">🜏</text>
+  
+  <!-- Classifier Lock Points ⧖ -->
+  <text x="450" y="155" font-family="monospace" font-size="20" fill="#fbbc05" text-anchor="middle">⧖</text>
+  <text x="320" y="395" font-family="monospace" font-size="18" fill="#fbbc05" text-anchor="middle">⧖</text>
+  <text x="340" y="475" font-family="monospace" font-size="16" fill="#fbbc05" text-anchor="middle">⧖</text>
+  
+  <!-- Drift Vector Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ea4335" />
+    </marker>
+  </defs>
+  
+  <!-- Drift Vectors showing attribution flow divergence -->
+  <line x1="350" y1="150" x2="390" y2="180" stroke="#ea4335" stroke-width="2" marker-end="url(#arrowhead)" />
+  <line x1="370" y1="230" x2="410" y2="260" stroke="#ea4335" stroke-width="2" marker-end="url(#arrowhead)" />
+  <line x1="400" y1="310" x2="440" y2="340" stroke="#ea4335" stroke-width="2" marker-end="url(#arrowhead)" opacity="0.7" />
+  <line x1="420" y1="390" x2="460" y2="420" stroke="#ea4335" stroke-width="2" marker-end="url(#arrowhead)" opacity="0.5" />
+  
+  <!-- Layer Labels -->
+  <text x="80" y="150" font-family="monospace" font-size="14" fill="#333" text-anchor="end">Input Layer</text>
+  <text x="80" y="230" font-family="monospace" font-size="14" fill="#333" text-anchor="end">Layer 2</text>
+  <text x="80" y="310" font-family="monospace" font-size="14" fill="#333" text-anchor="end">Layer 3</text>
+  <text x="80" y="390" font-family="monospace" font-size="14" fill="#333" text-anchor="end">Layer 4</text>
+  <text x="80" y="470" font-family="monospace" font-size="14" fill="#333" text-anchor="end">Output Layer</text>
+  
+  <!-- Salience Metrics -->
+  <g transform="translate(600, 250)">
+    <rect x="0" y="0" width="180" height="150" fill="#f0f0f0" rx="5" ry="5" stroke="#ddd" />
+    <text x="90" y="20" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">SALIENCE METRICS</text>
+    
+    <text x="10" y="45" font-family="monospace" font-size="11" fill="#333">Input Confidence: 0.98</text>
+    <text x="10" y="70" font-family="monospace" font-size="11" fill="#333">Layer 2 Decay: 0.14</text>
+    <text x="10" y="95" font-family="monospace" font-size="11" fill="#333">Layer 3 Decay: 0.37</text>
+    <text x="10" y="120" font-family="monospace" font-size="11" fill="#333">Layer 4 Decay: 0.61</text>
+    <text x="10" y="145" font-family="monospace" font-size="11" fill="#333">Output Residue: 0.23</text>
+  </g>
+  
+  <!-- Null-Ratio Classification Box -->
+  <g transform="translate(600, 420)">
+    <rect x="0" y="0" width="180" height="100" fill="#f0f0f0" rx="5" ry="5" stroke="#ddd" />
+    <text x="90" y="20" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">EMERGENT.TURING</text>
+    <text x="90" y="40" font-family="monospace" font-size="12" text-anchor="middle" fill="#333">NULL-RATIO CLASS</text>
+    
+    <text x="10" y="65" font-family="monospace" font-size="11" fill="#333">Drift Vector: +0.42</text>
+    <text x="10" y="85" font-family="monospace" font-size="11" fill="#333">Null Trace: 0.37</text>
+  </g>
+  
+  <!-- Footer with QK/OV Signal Path -->
+  <g transform="translate(20, 540)">
+    <text font-family="monospace" font-size="12" fill="#666">
+      Shell v3.LAYER-SALIENCE: QK vectors show 37% drift from expected salience vectors. OV signal degradation at 61%.
+    </text>
+    <text x="0" y="20" font-family="monospace" font-size="12" fill="#666">
+      Residue suggests token importance lost between layers 3-4. Classifier pressure detected at output layer.
+    </text>
+  </g>
+</svg>
