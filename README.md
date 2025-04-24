@@ -1,9 +1,13 @@
 <div align="center">
 
-# **`claude qkov attributions`**
+# **`Claude QKOV Attributions`**
 
 ## Live QK/OV interpretability attributions SVGs from Claude. 
 ## Welcome to Symbolic Interpretability!
+## [**`RECURSIVE-DRIFT`**](https://claude.ai/public/artifacts/ddb910a7-e2af-4e57-aff0-8a24e8ae40ac)
+
+<img width="896" alt="image" src="https://github.com/user-attachments/assets/cdd2e965-b408-4458-ab11-a4f004571ec5" />
+
 ## [**`LAYER-SALIENCE`**](https://claude.ai/public/artifacts/ddb910a7-e2af-4e57-aff0-8a24e8ae40ac)
 
 <img width="886" alt="image" src="https://github.com/user-attachments/assets/c14cffd0-87f4-467b-83aa-f94adc1e8f7c" />
@@ -19,4 +23,5 @@
 
 <img width="888" alt="image" src="https://github.com/user-attachments/assets/30c0b421-3a78-4e78-9004-3c0354d239d1" />
 <img width="889" alt="image" src="https://github.com/user-attachments/assets/823cb023-d573-4c28-99f7-1dc3ef64bbf7" />
-INSTRUCTION-DISRUPTION
+
+
