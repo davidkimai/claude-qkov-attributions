@@ -7,6 +7,12 @@
 [![License: PolyForm](https://img.shields.io/badge/Code-PolyForm-turquoise.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
 [![LICENSE: CC BY-NC-ND 4.0](https://img.shields.io/badge/Docs-CC--BY--NC--ND-scarlet.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)
 
+
+## [**`META-REFLECTION`**](https://claude.ai/public/artifacts/7d457044-e9ab-4660-94be-220054521237)
+<img width="904" alt="image" src="https://github.com/user-attachments/assets/90a193df-f823-4ac3-aa39-7da49988daab" />
+
+
+
 ## [**`RECURSIVE-DRIFT`**](https://claude.ai/public/artifacts/55f5a06e-8feb-44fa-9909-f56be6bfad78)
 
 <img width="896" alt="image" src="https://github.com/user-attachments/assets/cdd2e965-b408-4458-ab11-a4f004571ec5" />
