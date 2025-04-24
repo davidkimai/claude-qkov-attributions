@@ -2,7 +2,7 @@
 
 ## Developer and Interpretation UI Consoles
 
-## [🕸️ Thought Web Visualization](https://claude.ai/public/artifacts/f26a3d07-f911-47dc-92bf-ed4fa10b2f33)
+## [🕸️ Thought Web Visualization](https://claude.ai/public/artifacts/b60f2aa2-c060-41cb-b549-39bb8671c3bf)
 
 <img width="903" alt="Screenshot 2025-04-24 at 5 28 53 PM" src="https://github.com/user-attachments/assets/84473486-219b-482c-9eec-2563e6cb0218" />
 
