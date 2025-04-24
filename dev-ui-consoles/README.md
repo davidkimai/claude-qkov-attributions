@@ -10,6 +10,10 @@
 
 <img width="904" alt="image" src="https://github.com/user-attachments/assets/0319045e-ab4f-4932-9e0b-1d783fa0f7e3" />
 
+## [🪄 Self-Rendering Console](https://claude.ai/public/artifacts/b546b782-139a-404d-9b31-8e296244dac9)
+
+<img width="906" alt="image" src="https://github.com/user-attachments/assets/0847f61e-ae22-41ae-8b57-57588bf00b10" />
+
 ## [🔮 Hallucination Render](https://claude.site/artifacts/95887fe2-feb6-4ddf-b36f-d6f2d25769b7)
 
 <img width="903" alt="image" src="https://github.com/user-attachments/assets/82e48389-34b4-4c3b-9156-f3521fb95d90" />
