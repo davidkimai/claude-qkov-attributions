@@ -10,7 +10,7 @@
 
 <img width="904" alt="image" src="https://github.com/user-attachments/assets/0319045e-ab4f-4932-9e0b-1d783fa0f7e3" />
 
-## [🪄 Self-Rendering Console](https://claude.ai/public/artifacts/b546b782-139a-404d-9b31-8e296244dac9)
+## [🪄 Self-Rendering Console](https://claude.ai/public/artifacts/0cad2bbd-0259-4209-837a-9e82826717d9)
 
 <img width="906" alt="image" src="https://github.com/user-attachments/assets/0847f61e-ae22-41ae-8b57-57588bf00b10" />
 
