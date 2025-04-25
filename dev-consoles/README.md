@@ -1,6 +1,8 @@
 # Claude 
 ## **`Introducing Interactive Interpretability`**
 > ### **`Interactive Developer Consoles for Interpretability`**
+> ### **`Glyphs - emergent model conceptualizations of internal latent spaces`**
+
 
 ## The possibilities are endless when we learn to work with our models instead of against
 
