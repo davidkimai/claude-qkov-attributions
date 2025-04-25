@@ -2,6 +2,10 @@
 
 ## Developer and Interpretation UI Consoles
 
+## [🎮 Thought Web Console](https://claude.ai/public/artifacts/ca6ffea9-ee88-4b7f-af8f-f46e25b18633)
+<img width="894" alt="image" src="https://github.com/user-attachments/assets/35663f19-aeec-42ff-87da-4461247f0475" />
+
+
 ## [🕸️ Thought Web Visualization](https://claude.ai/public/artifacts/b60f2aa2-c060-41cb-b549-39bb8671c3bf)
 
 <img width="903" alt="Screenshot 2025-04-24 at 5 28 53 PM" src="https://github.com/user-attachments/assets/84473486-219b-482c-9eec-2563e6cb0218" />
