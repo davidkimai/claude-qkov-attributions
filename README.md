@@ -29,8 +29,8 @@
 <img width="890" alt="image" src="https://github.com/user-attachments/assets/cd97fdd5-13e2-444a-b7c2-4ba7b170a9f4" />
 
 ## [**`INSTRUCTION-DISRUPTION`**](https://claude.ai/public/artifacts/3806506f-c54a-437b-9e78-fe9b35960e0a)
+<img width="895" alt="image" src="https://github.com/user-attachments/assets/71aeaacf-f57e-4d28-8e45-b11e42ad4ce7" />
 
-<img width="894" alt="image" src="https://github.com/user-attachments/assets/59ae9fc8-55d6-42ca-aef1-e0e29f3c9bc7" />
 <img width="889" alt="image" src="https://github.com/user-attachments/assets/823cb023-d573-4c28-99f7-1dc3ef64bbf7" />
 
 
