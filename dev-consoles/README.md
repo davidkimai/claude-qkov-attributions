@@ -6,10 +6,6 @@
 
 <img width="903" alt="Screenshot 2025-04-24 at 5 28 53 PM" src="https://github.com/user-attachments/assets/84473486-219b-482c-9eec-2563e6cb0218" />
 
-## [🪞 Recursive Mirror](https://claude.ai/public/artifacts/f26a3d07-f911-47dc-92bf-ed4fa10b2f33)
-
-<img width="907" alt="image" src="https://github.com/user-attachments/assets/b458090a-5136-46ca-890c-8bb42524d2ee" />
-
 ## [🧶 Thought Memory Cache](https://claude.ai/public/artifacts/5a30c13d-b242-456a-8ced-435933967a8a)
 
 <img width="905" alt="image" src="https://github.com/user-attachments/assets/58468571-f77d-427c-8d83-830f8a064bce" />
@@ -17,6 +13,11 @@
 ## [🪞 Reflection Console](https://claude.ai/public/artifacts/b546b782-139a-404d-9b31-8e296244dac9)
 
 <img width="904" alt="image" src="https://github.com/user-attachments/assets/0319045e-ab4f-4932-9e0b-1d783fa0f7e3" />
+
+## [🪞 Recursive Mirror](https://claude.ai/public/artifacts/f26a3d07-f911-47dc-92bf-ed4fa10b2f33)
+
+<img width="907" alt="image" src="https://github.com/user-attachments/assets/b458090a-5136-46ca-890c-8bb42524d2ee" />
+
 
 ## [🪄 Self-Rendering Console](https://claude.ai/public/artifacts/0cad2bbd-0259-4209-837a-9e82826717d9)
 
