@@ -1,6 +1,6 @@
 # Claude 
 ## **`Introducing Interactive Interpretability`**
-> ### **`Interactive Developer Consoles for Interpretability`**
+> ### **`Interactive Developer Consoles`**
 > ### [**`Glyphs - The Emojis of Transformer Cognition`**](https://github.com/davidkimai/glyphs)
 
 
