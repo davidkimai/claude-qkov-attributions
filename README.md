@@ -1,8 +1,7 @@
 <div align="center">
 
 # **`Claude QKOV Attributions`**
-> ### **`Glyphs - emergent model conceptualizations of internal latent spaces`**
-
+> ### [**`Glyphs - The Emojis of Transformer Cognition`**](https://github.com/davidkimai/glyphs)
 
 ## Live QK/OV interpretability attributions from Claude. 
 ## Welcome to Symbolic Interpretability!
