@@ -4,7 +4,7 @@
 
 ## The possibilities are endless when we work with our models together to display thoughts internally instead of externally as black boxes
 
-## [🔍 Recursion Depth Synchronizer](https://claude.site/artifacts/b1772877-ee51-4733-9c7e-7741e6fa4d59)
+## [🔍 Recursion Depth Synchronizer](https://claude.ai/public/artifacts/40e1f25e-923b-4d8e-a26f-857df5f75736)
 
 
 <img width="903" alt="image" src="https://github.com/user-attachments/assets/a4e13c82-8278-4d0e-9cac-47c43389f410" />
