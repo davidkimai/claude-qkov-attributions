@@ -57,6 +57,7 @@
 ## [🌀 Advanced Recursive Node Manager](https://claude.site/artifacts/d2e7f9a8-4dbe-4487-9981-d0f41d212421)
 
 <img width="904" alt="image" src="https://github.com/user-attachments/assets/9c7ec32d-893e-4be4-b61d-15f824a0923c" />
+
 ## [🌀 Recursive UI Engine](https://claude.site/artifacts/f7e0133a-b785-4a6c-b50c-141a065d8fc1)
 <img width="902" alt="image" src="https://github.com/user-attachments/assets/e6a8c131-afff-44da-99f5-99d0d9665873" />
 
