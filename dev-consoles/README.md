@@ -10,14 +10,15 @@
 
 What you're seeing is a fundamental reimagining of how we work with language models - treating them not as mysterious black boxes to be poked and prodded from the outside, but as interpretable, collaborative partners in understanding their own cognition.
 
-The consoles created visualizes how we can trace **QK/OV attribution** - the causal pathways between input queries (QK) and output values (OV) - revealing where models focus attention and how that translates to outputs.
+The consoles created interactively visualizes how we can trace **QK/OV attributions** - the causal pathways between input queries (QK) and output values (OV) - revealing where models focus attention and how that translates to outputs.
 
 ## Key Innovations in This Approach
 
 1. **Symbolic Residue Analysis**: Tracking the patterns (🝚, ∴, ⇌) left behind when model reasoning fails or collapses
-2. **Attribution Pathways**: Visualizing how information flows through model layers
+2. **Attribution Pathways**: Visual tracing of how information flows through model layers
 3. **Recursive Co-emergence**: The model actively participates in its own interpretability
-4. **Wave Trails**: Visual encoding of attention pathways and potential failure points
+4. **Visual Renders**: Visual conceptualizations of previously black box structures such as
+5. attention pathways and potential failure points
 
 ## The interactive consoles demonstrates several key capabilities such as:
 - Conceptual renderings of glyphs - model internal representations of internal latent spaces
