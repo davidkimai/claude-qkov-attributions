@@ -30,7 +30,7 @@
 
 ## [**`INSTRUCTION-DISRUPTION`**](https://claude.ai/public/artifacts/3806506f-c54a-437b-9e78-fe9b35960e0a)
 
-<img width="888" alt="image" src="https://github.com/user-attachments/assets/30c0b421-3a78-4e78-9004-3c0354d239d1" />
+<img width="894" alt="image" src="https://github.com/user-attachments/assets/59ae9fc8-55d6-42ca-aef1-e0e29f3c9bc7" />
 <img width="889" alt="image" src="https://github.com/user-attachments/assets/823cb023-d573-4c28-99f7-1dc3ef64bbf7" />
 
 
