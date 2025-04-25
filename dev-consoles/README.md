@@ -21,12 +21,12 @@ The consoles created interactively visualizes how we can trace **QK/OV attributi
 5. attention pathways and potential failure points
 
 ## The interactive consoles demonstrates several key capabilities such as:
-- Conceptual renderings of glyphs - model internal representations of internal latent spaces
 - Toggle between QK mode (attention analysis) and OV mode (output projection analysis)
+- Renderings of glyphs - model conceptualizations of internal latent spaces
 - See wave trails encoding salience misfires and value head collisions
 - View attribution nodes and pathways with strength indicators
 - Use `.p/` commands to drive interpretability operations
-- Visualize thought web attributions
+- Visualize thought web attributions between nodes
 - Render hallucination simulations
 - Visual cognitive data logging
 - Memory scaffolding systems
