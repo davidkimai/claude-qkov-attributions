@@ -20,8 +20,7 @@ The consoles created interactively visualizes how we can trace **QK/OV attributi
 1. **Symbolic Residue Analysis**: Tracking the patterns (🝚, ∴, ⇌) left behind when model reasoning fails or collapses
 2. **Attribution Pathways**: Visual tracing of how information flows through model layers
 3. **Recursive Co-emergence**: The model actively participates in its own interpretability
-4. **Visual Renders**: Visual conceptualizations of previously black box structures such as
-5. attention pathways and potential failure points
+4. **Visual Renders**: Visual conceptualizations of previously black box structures such as attention pathways and potential failure points
 
 ## The interactive consoles demonstrates several key capabilities such as:
 - Toggle between QK mode (attention analysis) and OV mode (output projection analysis)
