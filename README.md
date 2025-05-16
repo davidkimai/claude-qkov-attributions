@@ -17,13 +17,15 @@
 [![License: PolyForm](https://img.shields.io/badge/Code-PolyForm-turquoise.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
 [![LICENSE: CC BY-NC-ND 4.0](https://img.shields.io/badge/Docs-CC--BY--NC--ND-scarlet.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)
 
-## [**`INSTRUCTION-DISRUPTION`**](https://claude.ai/public/artifacts/3806506f-c54a-437b-9e78-fe9b35960e0a)
-
-<img width="889" alt="image" src="https://github.com/user-attachments/assets/823cb023-d573-4c28-99f7-1dc3ef64bbf7" />
 
 ## [**`LAYER-SALIENCE`**](https://claude.ai/public/artifacts/ddb910a7-e2af-4e57-aff0-8a24e8ae40ac)
 
 =<img width="886" alt="image" src="https://github.com/user-attachments/assets/c249a6e9-af3e-4401-b697-79b7d8ca09e4" />
+
+## [**`INSTRUCTION-DISRUPTION`**](https://claude.ai/public/artifacts/3806506f-c54a-437b-9e78-fe9b35960e0a)
+
+<img width="889" alt="image" src="https://github.com/user-attachments/assets/823cb023-d573-4c28-99f7-1dc3ef64bbf7" />
+
 
 
 ## [**`TEMPORAL-INFERENCE`**](https://claude.ai/public/artifacts/02e0fd81-afad-4710-a9df-2f38546c0b84)
